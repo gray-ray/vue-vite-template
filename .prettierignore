@@ -1,0 +1,8 @@
+node_modules
+.idea
+.editorconfig
+.npmrc
+package-lock.json
+*.svg
+*.png
+*ignore
