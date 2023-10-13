@@ -27,8 +27,9 @@ module.exports = {
 	},
 	plugins: ['@typescript-eslint', 'vue'],
 	rules: {
-		indent: ['warn', 'tab'],
+		// indent: ['warn', 'tab'],
 		quotes: ['error', 'single'],
 		semi: ['error', 'always'],
+		'@typescript-eslint/no-explicit-any': 'off'
 	},
 };

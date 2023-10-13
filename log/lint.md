@@ -1,5 +1,17 @@
 Vite is a fast build tool for JavaScript and TypeScript projects. If you want to set up a Vite project with ESLint, Prettier, TypeScript, lint-staged, and Husky, here's a step-by-step guide on how to do it:
 
+
+  "@typescript-eslint/eslint-plugin": "^6.7.5",
+  "@typescript-eslint/parser": "^6.7.5",
+  "eslint": "^8.51.0",
+  "eslint-config-prettier": "^9.0.0",
+  "eslint-plugin-prettier": "^5.0.1",
+  "eslint-plugin-vue": "^9.17.0",
+  "lint-staged": "^14.0.1",
+  "prettier": "3.0.3",
+  "simple-git-hooks": "^2.9.0",
+  "stylelint": "^15.10.3",
+
 1. **Create a new Vite project:**
    First, make sure you have Node.js and npm installed. You can create a new Vite project using the following command:
 
